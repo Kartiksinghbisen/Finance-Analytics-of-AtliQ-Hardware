@@ -1,1 +1,57 @@
 # Finance-Analytics-of-AtliQ-Hardware
+
+Welcome to the AtliQ Hardware Data Analytics Project Repository. In this project I have used MySQL to generate insightful reports.
+
+## Problem Statement
+
+AtliQ Hardware is a company that sells computer hardwares to clients which has several branches throughout India. AtliQ Hardware emerged as the first indigeneous manufacturers of computer peripherals in India. As a result their sales and revenue increased every year. As the size of excel files continues to grow, it is encountering performance issues, causing them to become unresponsive and stopped working. To adress this challenge AtliQ Harware hired aa team of data analysts who will use MySQL as their database management system and to extract valuable insights from the data. These insights will empower our company to make more informed and strategic decisions, ultimately optimizing our operations and performance.
+
+## Business Terminology
+
+1. Fiscal Year
+2. Gross Price
+3. Gross Price Total
+
+   
+## Insights
+
+1. # Product Sales Report
+
+
+
+I created two user-defined functions get_fiscal_year and get_fiscal_year_quarter.
+I used JOIN to get the report.
+
+
+
+I generated a report for product sales for Croma India customer for fiscal_year = 2021
+This report will help in tracking individual product sales and help in analysing products.
+
+
+
+2. ## Gross Monthly Total Sales Report
+
+
+
+
+Performed aggregate function (SUM) to calculaye gross_price_total
+Joined two tables fact_sales_monthly and fact_gross_price.
+
+
+
+I generated a report for gross_price_total.
+
+
+
+3. # Yearly Sales Report
+
+
+Retrieved fiscal_year using user-defined function get_fiscal_year.
+Calculated yearly_sales using aggregate function(SUM).
+Joined two tables fact_sales_monthly and fact_gross_price.\
+
+
+
+I Generated a report for Croma India.
+In the fiscal year 2022 Croma India has the highest sales.
+
