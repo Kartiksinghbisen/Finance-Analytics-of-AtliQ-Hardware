@@ -32,6 +32,7 @@ This report will help in tracking individual product sales and help in analysing
 
 ![Screenshot 2024-05-08 101350](https://github.com/Kartiksinghbisen/Finance-Analytics-of-AtliQ-Hardware/assets/139736045/343def7a-2ac0-4d1e-8865-8b426ea95862)
 
+[croma__2021_all_trans (1).csv](https://github.com/Kartiksinghbisen/Finance-Analytics-of-AtliQ-Hardware/files/15243960/croma__2021_all_trans.1.csv)
 
 2. ## Gross Monthly Total Sales Report
 
